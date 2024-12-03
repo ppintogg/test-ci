@@ -5,7 +5,7 @@ class HomeController < ApplicationController
 
   def update
     @user = User.update('user_params')
-    result = params[:class].constantize.call(inputs)
+    params[:class].constantize.call(inputs)
   end
 
   def user_params
