@@ -48,6 +48,8 @@ group :development, :test do
   gem 'rubocop-rails'
   gem 'rubocop-rspec'
   gem 'rubocop-rspec_rails'
+
+  gem 'rspec-rails'
 end
 
 group :development do
