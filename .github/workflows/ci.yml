@@ -21,6 +21,8 @@ jobs:
 
       - name: Scan for common Rails security vulnerabilities using static analysis
         uses: reviewdog/action-brakeman@v2
+        with:
+          fail_level: any
 
       # - name: Scan for common Rails security vulnerabilities using static analysis
       #   run: bin/brakeman --no-pager
