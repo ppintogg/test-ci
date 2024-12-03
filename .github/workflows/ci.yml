@@ -45,8 +45,8 @@ jobs:
       #     skip_install: true
       #     use_bundler: true
 
-      # - name: Lint code for consistent style
-      #   run: bin/rubocop -f github
+      - name: Lint code for consistent style
+        run: bin/rubocop -f github
 
   test:
     runs-on: ubuntu-latest
